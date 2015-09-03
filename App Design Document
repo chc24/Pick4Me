@@ -1,0 +1,30 @@
+App Name:
+-Pick4Me
+
+App Purpose:
+-sends Top menu choices when user walks into Restaurant
+
+API’s and External Services:
+	-Yelp API
+	-TRNQL SDK/API
+
+Screens and Views:
+	-Home Navigation View Controller (Two Tabs, left side Recommended, Right side full menu)
+
+
+Experience:
+	User doesn’t want to be seated before seeing the menu, or wants to know the top choices immediately upon entering a restaurant.
+
+Similar Apps:
+
+
+Upcoming date:
+Sat 5 - Create schedule, plan out who does what 
+
+
+MVP MileStones
+-Recommended Menu Choices
+	-Yelp Comments and Ratings
+-If User is at restaurant or not
+
+
