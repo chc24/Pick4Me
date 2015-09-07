@@ -31,6 +31,8 @@ class ViewController: UIViewController {
             
             let longitude = addressEntry?.getLng() ?? ""
             tmpArray.append("Longitude: \(longitude)")
+            
+            println("Latitude: " + latitude + "\nLongitude: " + longitude)
 
         } else {
             println(error!)
