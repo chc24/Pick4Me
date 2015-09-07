@@ -13,11 +13,16 @@ let trnql = Trnql.sharedInstance // Optional: Store sharedInstance in a local va
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var latLabel: UILabel!
+    @IBOutlet weak var lngLaabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         trnql.delegate = self
         trnql.startSmartActivity()
         trnql.startSmartLocation()
+        
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -33,6 +38,8 @@ class ViewController: UIViewController {
             tmpArray.append("Longitude: \(longitude)")
             
             println("Latitude: " + latitude + "\nLongitude: " + longitude)
+            latLabel.text = latitude
+            lngLaabel.text = longitude
 
         } else {
             println(error!)
