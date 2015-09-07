@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>085C7169-ABDD-456A-A8E9-DF3F1C7A24E0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pick4Me</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6B3488ABC504E4C165D34C7CE5929C95A6EF5F6F</key>
+		<string>https://github.com/chc24/Pick4Me.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pick4Me/Pick4Me.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6B3488ABC504E4C165D34C7CE5929C95A6EF5F6F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chc24/Pick4Me.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6B3488ABC504E4C165D34C7CE5929C95A6EF5F6F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6B3488ABC504E4C165D34C7CE5929C95A6EF5F6F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pick4Me</string>
+		</dict>
+	</array>
+</dict>
+</plist>
