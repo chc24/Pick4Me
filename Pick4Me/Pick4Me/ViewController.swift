@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         trnql.delegate = self
+        trnql.startSmartActivity()
+        trnql.startSmartLocation()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -29,4 +32,15 @@ class ViewController: UIViewController {
 
 extension ViewController: TrnqlDelegate {
     
+    func smartActivityChanged(activityEntry: ActivityEntry?, error: NSError?) {
+        // do something with activityEntry, eg: activityEntry.isWalking()
+    }
+    
+    func smartAddressChanged(addressEntry: AddressEntry?, error: NSError?) {
+        // do something with addressEntry, eg: addressEntry.getAddress()
+    }
+    
+    func smartLocationChanged(locationEntry: LocationEntry?, error: NSError?) {
+        // do something with locationEntry, eg: locationEntry.getSpeed()
+    }
 }
